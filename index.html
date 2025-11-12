@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <header class="navbar">
+      <div class="navbar-left">
+        <div class="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <img src="logo.svg" alt="Canva Logo" class="logo" />
+      </div>
+
+      <!-- Desktop Menu Items -->
+      <nav class="navbar-center-desktop">
+        <ul class="nav-menu">
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Plan</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop Sign up Button -->
+      <div class="navbar-right-desktop-signup">
+        <button class="btn btn-signup">Sign up</button>
+      </div>
+
+      <!-- Universal Login Button -->
+      <button class="btn btn-login-universal">Log in</button>
+
+      <!-- Mobile Menu Wrapper -->
+      <aside class="mobile-menu-wrapper">
+        <div class="close-icon">&times;</div>
+        <nav class="navbar-center">
+          <ul class="nav-menu">
+            <li>
+              <a href="#">Design <span class="arrow-icon">&gt;</span></a>
+            </li>
+            <li>
+              <a href="#">Product <span class="arrow-icon">&gt;</span></a>
+            </li>
+            <li>
+              <a href="#">Plan <span class="arrow-icon">&gt;</span></a>
+            </li>
+            <li>
+              <a href="#">Business <span class="arrow-icon">&gt;</span></a>
+            </li>
+            <li>
+              <a href="#">Education <span class="arrow-icon">&gt;</span></a>
+            </li>
+            <li>
+              <a href="#">Help <span class="arrow-icon">&gt;</span></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-buttons">
+          <button class="btn btn-login-mobile">Log in</button>
+          <button class="btn btn-signup-mobile">Sign up</button>
+        </div>
+      </aside>
+    </header>
+
+    <main class="hero-section">
+      <h1>A new era<br />of imagination</h1>
+      <p>
+        Discover a whole new world of skills and tools designed your imagination
+        to work
+      </p>
+      <div class="hero-buttons">
+        <button class="btn btn-start-designing">
+          Start designing for free
+        </button>
+        <button class="btn btn-explore">Explore our launches</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
